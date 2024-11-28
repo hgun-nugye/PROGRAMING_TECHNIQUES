@@ -1,0 +1,9 @@
+Phuong trinh co nghiem kep x1=x2=-1.00
+Phuong trinh co nghiem kep x1=x2=1.00
+Phuong trinh vo nghiem
+Phuong trinh co hai nghiem phan biet x1=1.00; x2=-3.00
+Phuong trinh co hai nghiem phan biet x1=2.00; x2=1.00
+Phuong trinh co duy nhat nghiem x=-2.00
+Phuong trinh co vo so nghiem
+Phuong trinh vo nghiem
+Phuong trinh vo nghiem

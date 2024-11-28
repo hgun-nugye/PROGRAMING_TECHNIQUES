@@ -71,9 +71,9 @@ void HaiDiemGanNhau(int &n, Point a[], Point &t1, Point &t2)
 	{
 		for(int j=i+1; j<n; j++)
 		{
-			if(min>=d(a[i].x, a[i+1].x, a[i].y,a[i+1].y))
+			if(min>=d(a[i].x, a[j].x, a[i].y,a[j].y))
 			{
-				min=d(a[i].x, a[i+1].x, a[i].y,a[i+1].y);
+				min=d(a[i].x, a[j].x, a[i].y,a[j].y);
 				t1=a[i];
 				t2=a[j];
 			}	
