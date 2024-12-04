@@ -10,7 +10,7 @@ void ThapHaNoi(int n, char nguon, char trgian, char dich)
 		return;
 	} 
 	ThapHaNoi(n-1, nguon, dich, trgian);    
-  cout<<nguon<<" -> "<<dich<< endl;
+  cout<<"Chuyen 1 dia tu "<<nguon<<" -> "<<dich<< endl;
 	ThapHaNoi(n-1, trgian, nguon, dich);
 }
 int main()
