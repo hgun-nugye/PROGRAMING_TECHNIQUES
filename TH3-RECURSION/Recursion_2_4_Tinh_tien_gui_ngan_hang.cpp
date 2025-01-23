@@ -5,7 +5,7 @@ double Money(double m, int n, float i)
 {
 	if(n==0) return m;
 	if(n==1) return m*(1+i/100);
-	return m+(Money(m,n-1,i)*(1+i/100)-m);
+	return Money(m,n-1,i)*(1+i/100);
 }
 int main()
 {
